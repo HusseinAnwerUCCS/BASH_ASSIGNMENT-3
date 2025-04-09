@@ -21,3 +21,18 @@ sumNumCheck(){
         echo "incorrect"
     fi
 }
+randSum(){
+    while :
+    do
+        num1=$((RANDOM % 10 + 1))
+        num2=$((RANDOM % 10 + 1))
+        sum=$((num1 + num2))
+        echo "what is the sum of these two numbers:  $num1 and $num2 equal to?"
+        read userInput
+        if [[ $userInput -eq $sum ]]; then
+            echo "correct "
+        else
+            echo "incorrect"
+        fi
+    done
+}
