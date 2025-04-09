@@ -1,3 +1,6 @@
-#!/bin/bash
-echo "Hello, world! You made your first Bash script."
-bash script.sh
+#!/usr/bin/env bash
+#!/usr/bin/env bash
+#Hussein Anwer
+#Date:2025/4/8
+
+
